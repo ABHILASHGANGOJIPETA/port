@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="logo">Portfolio.</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>ABHILASH GANGOJIPETA</h1>
+            <h2>I'm a Software Engineer</h2>
+            <p>Aspiring Software Developer, Seeking an opportunity to apply my technical skills in real-world projects and contribute effectively in a dynamic work environment.</p>
+            <div class="btn-sci">
+                <a href="Abhilash_Resume_02.pdf" class="btn" download>Download Resume</a>
+                <div class="sci">
+                    <a href="https://github.com/ABHILASHGANGOJIPETA" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhilash-gangojipeta-362242256" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Abhi.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Here are a few of my recent projects:</p>
+            <ul>
+                <li>
+                    <strong>OLX Clone:</strong> A marketplace platform built using the MERN stack.<br>
+                    <a href="https://github.com/ABHILASHGANGOJIPETA/olx-clone" target="_blank">GitHub Link</a>
+                </li>
+                <li>
+                    <strong>Plant Disease Detection System:</strong> A Streamlit-based system to detect plant diseases using deep learning.<br>
+                    <a href="https://github.com/ABHILASHGANGOJIPETA/Plant-Disease-Detection-System-for-Sustainable-Agriculture" target="_blank">GitHub Link</a>
+                </li>
+                <li>
+                    <strong>Health Prognosis:</strong> A Flask app that predicts diseases like diabetes and heart issues using machine learning.<br>
+                    <a href="https://github.com/ABHILASHGANGOJIPETA" target="_blank">GitHub Link</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-boxes">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Designing and building responsive, user-friendly websites using HTML, CSS, JavaScript, React.js, and Node.js. Experience building full-stack applications like OLX Clone.</p>
+                </div>
+                <div class="service">
+                    <h3>Machine Learning Solutions</h3>
+                    <p>Creating ML models for predictive analytics and classification problems using Python, scikit-learn, and deep learning. Built health prognosis and agriculture-based disease detection systems.</p>
+                </div>
+                <div class="service">
+                    <h3>AI Project Implementation</h3>
+                    <p>Hands-on experience developing and deploying AI-driven applications during internships at Slask Mark and in academic projects. Proficient with TensorFlow, OpenCV, and data pipelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: abhilshgangojipeta@gmail.com</p>
+            <p>Phone: +91 7989095336</p>
+        </div>
+    </section>
+</body>
+</html>
